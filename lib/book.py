@@ -20,7 +20,8 @@ class Book:
       else:
          self._page_count = page_count_num
     
-    
+   def turn_page(self):
+      print("Flipping the page...wow, you read fast!")
       
 
    
