@@ -30,4 +30,23 @@ class Shoe:
         self._condition = "New"
         print("Your shoe is as good as new!")
 
-   
+shoe = Shoe(brand='Nike', size=10)
+print(f"Shoe Brand: {shoe.brand}")
+print(f"Shoe Size: {shoe.size}")
+
+shoe = Shoe(brand='Adidas', size=8, condition='Worn')
+shoe.cobble()
+print(f"Shoe Brand: {shoe.brand}")
+print(f"Shoe Size: {shoe.size}")
+print(f"Shoe Condition: {shoe.condition}")
+
+Shoe(brand='Puma', size=9)
+print(f"Shoe Brand: {shoe.brand}")
+print(f"Shoe Size: {shoe.size}")
+
+Shoe(brand='Reebok', size=7)
+print(f"Shoe Brand: {shoe.brand}")
+print(f"Shoe Size: {shoe.size}")
+
+
+

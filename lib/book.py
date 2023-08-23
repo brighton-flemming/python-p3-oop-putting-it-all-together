@@ -24,6 +24,12 @@ class Book:
       print("Flipping the page...wow, you read fast!")
       
 
+book = Book(title='The Great Gatsby', page_count=300)
+print(f"Book Title: {book.title}")
+print(f"Book Size: {book.page_count}")
+
+book = Book(title='Harry Potter', page_count=400)
+book.turn_page()
    
     
         
