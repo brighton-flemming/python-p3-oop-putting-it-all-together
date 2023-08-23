@@ -19,3 +19,7 @@ class Shoe:
           print("size must be an integer")
       else:
           self._size = new_size
+
+    
+    def cobble(self):
+        print("Your shoe is as good as new!")
